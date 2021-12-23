@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txt_material_code"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_weight="0.5"
+            android:text="1000006"
+            android:textSize="17sp"
+            android:textColor="#1199EE"
+            android:gravity="left|center_vertical"/>
+
+        <TextView
+            android:id="@+id/txt_qty"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.25"
+            android:text="12"
+            android:textSize="17sp"
+            android:textColor="#1199EE"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txt_unit"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.15"
+            android:text="CYL"
+            android:textSize="17sp"
+            android:textColor="#1199EE"
+            android:gravity="center"/>
+
+        <ImageButton
+            android:id="@+id/img_delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:background="@android:drawable/ic_menu_delete"
+            android:backgroundTint="@color/red"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFFFFF"/>
+
+</LinearLayout>
